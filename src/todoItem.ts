@@ -1,4 +1,5 @@
-export class todoItem {
+export class TodoItem {
+
     constructor(public id: number,  // аннотация типа - которая сообщает что свойству id можно присваивать значения только типа number
                 public task: string,
                 public complete: boolean = false) {
